@@ -3,6 +3,7 @@ var object = {
   surname: 'Moraru',
   age: 26,
   petOwner: false,
+  carOwner: false,
 };
 
 console.warn(`
