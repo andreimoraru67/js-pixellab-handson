@@ -3,6 +3,7 @@ var person = {
   lastName: 'Mikeson',
   email: 'tykemikeson@yahoo.com',
   birthYear: 1966,
+  age: 57,
   pets: [
     {
       name: 'Thing',
@@ -54,4 +55,14 @@ console.log(
     ' ani.',
 );
 
-console.log((2023 - person.pets[0].age).toString());
+console.log((person.age - person.pets[0].age).toString());
+
+console.log(
+  'Intre ' +
+    person.firstName +
+    ' si ' +
+    person.pets[0].name +
+    ' este o diferenta de ' +
+    (person.age - person.pets[0].age) +
+    ' ani.',
+);
