@@ -35,7 +35,7 @@ console.log(person.friends.carol.age.toString());
 console.warn(`
 Folosind anul curent calculeaza si afiseaza anul de nastere al lui Larry
 `);
-console.log((2022 - person.friends.larry.age).toString());
+console.log((2023 - person.friends.larry.age).toString());
 
 console.warn(`
 Calculeaza diferenta si afiseaza propozitia:

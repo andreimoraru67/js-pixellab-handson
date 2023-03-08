@@ -33,7 +33,7 @@ scazand varsta pe care ai trecut-o in obicet din anul
 curent (un proces numit hardcodare)
 `);
 
-console.log((2022 - object.age).toString());
+console.log((2023 - object.age).toString());
 
 console.warn(`
 Afiseaza fraza “xxx yyy are xx ani.”
@@ -48,5 +48,5 @@ Afiseaza fraza “xxx s-a nascut in aaaa.”
 Foloseste tot anul curent pentru a scadea varsta.
 `);
 console.log(
-  object.name + ' s-a nascut in ' + (2022 - object.age).toString() + '.',
+  object.name + ' s-a nascut in ' + (2023 - object.age).toString() + '.',
 );
