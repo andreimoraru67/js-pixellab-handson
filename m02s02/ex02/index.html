@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>Person Form</title>        
+  <meta charset="utf-8">
+  <title>Person Form</title>
 </head>
+
 <body>
   <form id="personForm">
     <fieldset>
       <legend>Persoana</legend>
       <label for="name">Nume:</label>
-      <input type="text" name="name"> 
-        
+      <input
+        type="text"
+        name="name"
+      >
+
       <br><br>
 
       <label for="surname">Prenume:</label>
-      <input type="text" name="surname"> 
+      <input
+        type="text"
+        name="surname"
+      >
 
       <br><br>
 
       <label for="age">Varsta</label>
-      <input type="text" name="age">    
-      
+      <input
+        type="text"
+        name="age"
+      >
+
       <br><br>
 
       <button type="submit">Adauga</button>
@@ -28,10 +39,110 @@
 
     <fieldset>
       <legend>Detalii</legend>
+
+      <label for="skill">Skill</label>
+      <input
+        type="text"
+        name="skill"
+        id="skill"
+      >
+      <button
+        type="button"
+        title="Adauga"
+      >Adauga</button>
+    </fieldset>
+
+    <input
+      type="checkbox"
+      name="has-pets"
+      id="has-pets"
+    >
+    <label for="has-pets">Has pets?</label>
+
+    <fieldset style="display: none">
+      <legend>Pet details</legend>
+
+      <label for="">Name:</label>
+      <input
+        type="text"
+        name="create-pet-name"
+        id=""
+      >
+
+      <br><br>
+
+      <label for="">Species:</label>
+      <input
+        type="text"
+        name="create-pet-species"
+        id=""
+      >
+
+      <br><br>
+
+      <label for="">Age:</label>
+      <input
+        type="text"
+        name="create-pet-age"
+        id=""
+      >
+
+      <br><br>
+      <button
+        type="button"
+        title="Add pet"
+        class="create-pet-button"
+      >Add pet</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Friend details</legend>
+
+      <label for="">Name:</label>
+      <input
+        type="text"
+        name="create-friend-name"
+        id=""
+      >
+
+      <br><br>
+
+      <label for="">Surname:</label>
+      <input
+        type="text"
+        name="create-friend-surname"
+        id=""
+      >
+
+      <br><br>
+
+      <label for="">Age:</label>
+      <input
+        type="text"
+        name="create-friend-age"
+        id=""
+      >
+
+      <br><br>
+      <button
+        type="button"
+        title="Add friend"
+        class="create-friend-button"
+      >Add friend</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>Control</legend>
+
+      <button
+        type="submit"
+        title="Adauga"
+      >Adauga</button>
     </fieldset>
   </form>
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="app.js"></script>
 </body>
+
 </html>
